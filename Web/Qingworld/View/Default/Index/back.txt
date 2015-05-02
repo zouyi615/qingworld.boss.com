@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="../Public/css/bootstrap.min.css" /> <!-- bootstrap样式 -->
+<link rel="stylesheet" href="../Public/css/bootstrap-responsive.min.css" /> <!-- bootstrap自适应宽度样式 -->
+<link rel="stylesheet" href="../Public/css/fullcalendar.css" /> <!-- 日历样式 -->
+<link rel="stylesheet" href="../Public/css/matrix-style.css" /> <!-- matrix style定义属性 -->
+<link rel="stylesheet" href="../Public/css/matrix-media.css" /> <!-- matrix media定义属性 -->
+<link rel="stylesheet" href="../Public/font-awesome/css/font-awesome.css" /> <!-- css字体图片 -->
+<link rel="stylesheet" href="../Public/css/jquery.gritter.css" /> <!-- 消息通知 -->
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' type='text/css'> <!-- google外部字体 -->
+
+<script src="../Public/js/matrix.js"></script> <!-- matrix side目录树js效果 -->
+<script src="../Public/js/matrix.dashboard.js"></script> 
+<script src="../Public/js/matrix.tables.js"></script>  <!-- matrix 表格js效果 -->
+<script src="../Public/js/matrix.interface.js"></script> 
+<script src="../Public/js/matrix.chat.js"></script> 
+<script src="../Public/js/matrix.form_validation.js"></script> 
+<script src="../Public/js/matrix.popover.js"></script>  
+<script src="../Public/js/bootstrap.min.js"></script>  <!-- bootstrap js -->
+<script src="../Public/js/fullcalendar.min.js"></script> <!-- 日历插件js -->
+<script src="../Public/js/select2.min.js"></script>  <!-- 下拉美化插件 -->
+<script src="../Public/js/excanvas.min.js"></script>  <!-- jquery图表插件flot -->
+<script src="../Public/js/jquery.min.js"></script> <!-- jquery -->
+<script src="../Public/js/jquery.ui.custom.js"></script> <!-- jquery UI -->
+<script src="../Public/js/jquery.flot.min.js"></script>  <!-- jquery图表插件flot -->
+<script src="../Public/js/jquery.flot.resize.min.js"></script>  <!-- jquery图表插件flot -->
+<script src="../Public/js/jquery.peity.min.js"></script> <!-- jquery图表插件flot -->
+<script src="../Public/js/jquery.gritter.min.js"></script> <!-- Gritter jQuery 消息通知插件 -->
+<script src="../Public/js/jquery.validate.js"></script> <!-- validate jQuery 验证插件 --> 
+<script src="../Public/js/jquery.wizard.js"></script> <!-- jquery wizard 生成向导页面 -->
+<script src="../Public/js/jquery.uniform.js"></script>  <!-- uniform jquery 表单美化 -->
+<script src="../Public/js/jquery.dataTables.min.js"></script>  <!-- jQuery 的表格插件 -->
+

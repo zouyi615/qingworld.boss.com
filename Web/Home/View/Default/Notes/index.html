@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Bootstrap, from LayoutIt!</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link href="../Public/css/bootstrap.css" rel="stylesheet">
+		<link href="../Public/css/public.css" rel="stylesheet">
+		<link href="../Public/css/notes.css" rel="stylesheet">
+		<!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet"> -->
+		<link rel="shortcut icon" href="../Public/img/favicon.png">
+		<script type="text/javascript" src="../Public/js/jquery.min.js"></script>
+		<script type="text/javascript" src="../Public/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../Public/js/jquery.adipoli.min.js"></script>		
+		<script type="text/javascript" src="../Public/js/index.js"></script>
+	</head>
+	<body>		
+	<!-- 头部 -->
+	<div id="header">
+		<include file="Index:top"/>
+		<include file="Index:nav"/>
+	</div>
+	<!--  内容  -->
+	<div class="container">
+		<!-- 主体内容 -->
+		<div class="row main">
+			<div class="col-xs-12 current-topic">
+				<div class="notes-head">					
+					<div class="notes-words">
+						<img id="notes-quote" src="../Public/img/notes_quote.jpg" alt="Du行天使" title="旅行，是你能买到的唯一一件使你更富有的东西。">
+					</div>
+					<div class="write-notes-btn">
+						<a class="new-note-low" href="#" id="J_notes-create-new">发表游记攻略</a>
+					</div>
+				</div>
+				<div class="notes-content">
+					<div class="row notes-view clearfix" id="notes-view">
+						<div id="notes-loading" class="notes-loading" style="display: none;"><p>正在努力加载中，请稍候 ^_^</p></div>
+						<div class="recommendation col-xs-3">
+							<div class="recommendation-main clearfix">
+								<span class="recommendation-title">版主力荐</span>
+								<div class="notes-categories">
+									<ul>
+										<li><a id="latest-notes" class="notes-active" href="###">热门</a></li>
+										<li><a id="praise-notes" class="" href="###">优质精华</a></li>
+										<li><a id="guide-notes" class="" href="###">最新发表</a></li>
+									</ul>
+								</div>
+								<div class="hot-destinations">
+									<span class="hot-destinations-title">热门目的地</span>
+									<div class="notes-cms clearfix">
+										<ul class="notes-cms-group clearfix nslog-area" id="J_notes-cms-china" data-nslog="">
+											<li><a class="scene-choose scene-choosen" data-sname="厦门" href="###">厦门</a></li>
+											<li><a class="scene-choose" data-sname="三亚" href="###">三亚</a></li>
+											<li><a class="scene-choose" data-sname="北京" href="###">北京</a></li>
+											<li><a class="scene-choose" data-sname="香港" href="###">香港</a></li>
+											<li><a class="scene-choose" data-sname="澳门" href="###">澳门</a></li>
+											<li><a class="scene-choose" data-sname="丽江" href="###">丽江</a></li>
+											<li><a class="scene-choose" data-sname="凤凰" href="###">凤凰</a></li>
+											<li><a class="scene-choose" data-sname="青岛" href="###">青岛</a></li>
+										</ul>
+										<ul class="notes-cms-group clearfix nslog-area" id="J_notes-cms-foreign" data-nslog="">
+											<li><a class="scene-choose" data-sname="普吉岛" href="###">普吉岛</a></li>
+											<li><a class="scene-choose" data-sname="瑞士" href="###">瑞士</a></li>
+											<li><a class="scene-choose" data-sname="韩国" href="###">韩国</a></li>
+											<li><a class="scene-choose" data-sname="美国" href="###">美国</a></li>
+											<li><a class="scene-choose" data-sname="埃及" href="###">埃及</a></li>
+											<li><a class="scene-choose" data-sname="马尔代夫" href="###">马尔代夫</a></li>
+											<li><a class="scene-choose" data-sname="澳大利亚" href="###">澳大利亚</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-container col-xs-3">
+							<div class="item"></div>
+							<div class="item"></div>
+						</div>
+						<div class="col-container col-xs-3">
+							<div class="item"></div>
+							<div class="item"></div>
+						</div>
+						<div class="col-container col-xs-3">
+							<div class="item"></div>
+							<div class="item"></div>
+						</div>
+						<div class="col-container col-xs-3">
+							<div class="item"></div>
+							<div class="item"></div>
+						</div>
+						<div id="loading-block" class="loading-block" style="display: none;"><p>正在努力加载中，请稍候 ^_^</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<include file="Index:footer"/>
+	</body>
+</html>

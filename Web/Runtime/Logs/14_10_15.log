@@ -1,0 +1,349 @@
+[ 2014-10-15T22:02:15+08:00 ] 127.0.0.1 /Qingworld
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.128171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2014-10-15T22:02:15+08:00 ] 127.0.0.1 /Qingworld/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.050938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2014-10-15T22:02:18+08:00 ] 127.0.0.1 /Qingworld/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2014-10-15T22:02:18+08:00 ] 127.0.0.1 /Qingworld/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2014-10-15T22:02:23+08:00 ] 127.0.0.1 /Qingworld/User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `q_userinfo` [ RunTime:0.084819s ]
+SQL: SELECT `uid`,`username`,`adminid`,`groupid`,`regdate`,`lastvisit`,`posts`,`credits`,`email`,`ustate` FROM `q_userinfo` ORDER BY regdate desc LIMIT 0,10   [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-10-15T22:02:24+08:00 ] 127.0.0.1 /Qingworld/User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `q_userinfo` [ RunTime:0.003396s ]
+SQL: SELECT `uid`,`username`,`adminid`,`groupid`,`regdate`,`lastvisit`,`posts`,`credits`,`email`,`ustate` FROM `q_userinfo` ORDER BY regdate desc LIMIT 0,10   [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2014-10-15T22:02:25+08:00 ] 127.0.0.1 /Qingworld/User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `q_userinfo` [ RunTime:0.003159s ]
+SQL: SELECT `uid`,`username`,`adminid`,`groupid`,`regdate`,`lastvisit`,`posts`,`credits`,`email`,`ustate` FROM `q_userinfo` ORDER BY regdate desc LIMIT 0,10   [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2014-10-15T22:02:26+08:00 ] 127.0.0.1 /Qingworld/User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `q_userinfo` [ RunTime:0.003572s ]
+SQL: SELECT `uid`,`username`,`adminid`,`groupid`,`regdate`,`lastvisit`,`posts`,`credits`,`email`,`ustate` FROM `q_userinfo` ORDER BY regdate desc LIMIT 0,10   [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-10-15T22:02:28+08:00 ] 127.0.0.1 /Qingworld/User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+SQL: SHOW COLUMNS FROM `q_userinfo` [ RunTime:0.003199s ]
+SQL: SELECT `uid`,`username`,`adminid`,`groupid`,`regdate`,`lastvisit`,`posts`,`credits`,`email`,`ustate` FROM `q_userinfo` ORDER BY regdate desc LIMIT 0,10   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2014-10-15T22:02:32+08:00 ] 127.0.0.1 /Qingworld/User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `q_userinfo` [ RunTime:0.003582s ]
+SQL: SELECT `uid`,`username`,`adminid`,`groupid`,`regdate`,`lastvisit`,`posts`,`credits`,`email`,`ustate` FROM `q_userinfo` ORDER BY regdate desc LIMIT 0,10   [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2014-10-15T22:02:35+08:00 ] 127.0.0.1 /Qingworld/User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+SQL: SHOW COLUMNS FROM `q_userinfo` [ RunTime:0.003354s ]
+SQL: SELECT `uid`,`username`,`adminid`,`groupid`,`regdate`,`lastvisit`,`posts`,`credits`,`email`,`ustate` FROM `q_userinfo` ORDER BY regdate desc LIMIT 0,10   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2014-10-15T22:05:20+08:00 ] 127.0.0.1 /Qingworld/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+ERR: 无法加载控制器:Login
+
+[ 2014-10-15T22:05:24+08:00 ] 127.0.0.1 /Qingworld/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2014-10-15T22:05:24+08:00 ] 127.0.0.1 /Qingworld/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2014-10-15T22:05:29+08:00 ] 127.0.0.1 /Qingworld/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+ERR: 非法操作:login
+
+[ 2014-10-15T22:05:36+08:00 ] 127.0.0.1 /Qingworld/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2014-10-15T22:05:36+08:00 ] 127.0.0.1 /Qingworld/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2014-10-15T23:39:31+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2014-10-15T23:46:32+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-10-15T23:54:21+08:00 ] 127.0.0.1 /Qingworld
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2014-10-15T23:54:21+08:00 ] 127.0.0.1 /Qingworld/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
